@@ -1,2 +1,2 @@
 # Projects
-Personal 
+Fun projects

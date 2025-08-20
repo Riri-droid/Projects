@@ -1,0 +1,44 @@
+Pika Voice Assistant - Project Description
+Pika is your personal "potato Jarvis" voice assistant built in Python! Here's what it does:
+---Main Purpose
+Pika recognizes your voice commands and can interact with text editors (specifically Notepad) to write and read text for you. It's like having a simple AI assistant that listens to you and helps with basic text tasks.
+--- How It Works
+Core Components:
+Speech Recognition - Uses your microphone to listen and convert your speech to text
+Text-to-Speech - Speaks back to you with a synthesized voice
+Notepad Integration - Can control Notepad to write and read text
+Voice Command Processing - Understands specific commands and responds accordingly
+Technical Stack:
+Python 3.11 - Main programming language
+SpeechRecognition - Converts speech to text using Google's API
+pyttsx3 - Converts text to speech (offline)
+pyautogui - Controls keyboard/mouse to interact with Notepad
+subprocess - Manages opening applications like Notepad
+---What Pika Can Do
+Command	What Happens
+"Write this: [your text]"	Opens Notepad and types your text
+"Read"	Reads aloud whatever text is in Notepad
+"Open Notepad"	Launches the Notepad application
+"Hello" / "Hi"	Greets you back
+"Exit" / "Quit" / "Goodbye"	Stops the assistant
+ How the Voice Recognition Works
+Listens continuously through your microphone
+Processes audio and sends it to Google's speech recognition service
+Converts speech to text
+Analyzes the text for known commands
+Executes the appropriate action
+Responds with voice feedback
+--- Cool Features
+Real-time voice processing - Responds immediately to your commands
+Error handling - Tells you if it didn't understand or if there's no internet
+Clipboard integration - Can read text from Notepad by copying it
+Background process detection - Knows if Notepad is already running
+Graceful shutdown - Can be stopped with voice commands or Ctrl+C
+---Future Expansion Ideas
+More text editors support
+File operations (save, open files)
+Web searches
+Weather information
+Calculator functions
+Email sending
+And much more!

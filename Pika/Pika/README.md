@@ -1,4 +1,4 @@
-﻿pip install -r requirements.txt# Pika - Your Voice Assistant
+pip install -r requirements.txt# Pika - Your Voice Assistant
 
 A simple voice assistant that can recognize speech, transcribe to a text editor, and read text aloud.
 
@@ -32,8 +32,9 @@ python src/pika.py
 
 ## Commands
 
-- "Write this: [your text]" - Writes the specified text to Notepad
-- "Backspace" - to remove the last said word
-- "Clear" - clears the full notepad
+- "Write [your text]" - Writes the specified text to Notepad
 - "Read" - Reads the text currently in Notepad
+- "Clear" - clears the full notepad
+- "Backspace" - clears the last word in the notepad
 - "Exit" - Exits the program
+
